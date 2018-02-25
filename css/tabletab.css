@@ -1,0 +1,114 @@
+
+.back{
+   background:url(../images/Filter.jpg) no-repeat ;
+   background-size: cover;
+   background-position: center;
+   /*background-attachment: fixed;*/
+   height: 400px;
+
+}
+
+.floatname h1{
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: -90px;
+}
+.tabbar{
+    width:1000px;
+    height: 50px;
+    border:1px solid #cccccc;
+    margin:0px auto;
+    background-color: white;
+    margin-top: -10px;
+}
+
+ .tabs{
+    width: 1000px;
+    margin:0px auto;
+    margin-top: 5px;
+}
+
+.tabbar .tabs a{
+   display:inline-block;
+   padding :10px 20px 10px 0;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 30px;
+   width: 190px;
+   background-color: white;
+}
+
+
+.tabbar .tabs a:hover{
+   color: red;
+}
+
+.floatrht {
+   background-color: orange;
+   color:white;
+   float: right;
+
+}
+
+.tabHr {
+    width:250px ;
+    left: auto;
+    bottom: 26px;
+    height: 3px;
+    margin: 0;
+    background-color: #ef3f30;
+    border: 0 none;
+}
+
+#button{
+   width: 200px;
+   height: 50px;
+   color: white;
+   background-color: orange;
+   cursor: pointer;
+}
+/*
+#imgbox{
+    display: inline-block;
+    height: 200px;
+    padding-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+
+}*/
+
+#imgbox{
+   display: inline-block;
+   width:200px;
+    /*top right down left */
+   margin-left: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   border-radius:15px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+}
+
+/*image transis*/
+#imgbox:hover{
+      /*right down blurness allside */
+  box-shadow: 0px 17px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#content1 #imgbox a img{
+    height: 150px;
+    width: 200px;
+}
+.content_switcher{
+    display: none;
+}
+
+.content_switcher:nth-child(1){
+    display: block;
+}
+

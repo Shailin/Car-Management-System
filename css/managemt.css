@@ -1,0 +1,35 @@
+
+.backgrd{
+   background:url(../images/UsedCars.jpg) no-repeat ;
+   background-size: cover;
+   background-position: center;
+   /*background-attachment: fixed;*/
+   height: 400px;
+}
+
+.blk{
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.cblk{
+   width: 100%;
+   margin: 0 auto;
+}
+
+.backgrd .blk .cblk a{
+    display: inline-block;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    padding: 30px;
+    margin:0 auto;
+    margin-top: 350px;
+}
+
+.backgrd .blk .cblk .fhref{
+    margin-left: 300px;
+}

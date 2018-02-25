@@ -1,0 +1,542 @@
+
+.modeltab{
+    position: relative;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    background:#293f50;
+    z-index: 100;
+    /*box-shadow: 3px;*/
+}
+
+.modelspace{
+  width: 1000px;
+  margin: 8px auto;
+}
+
+.modelnav{
+    background-color:#293f50;
+    width: 100%;
+}
+
+ul li{
+   display: inline-block;
+   padding: 0px;
+ }
+
+ a{
+   padding: 10px;
+   margin: 10px auto;
+}
+ a.abc{
+   text-decoration: none;
+   padding: 10px;
+	color:white;
+   margin: 10px auto;
+   text-align: vertical;
+ 
+}
+a.abc.active{
+	color:yellow;
+}
+a.selected{
+	color:pink;
+}
+
+.modelnav ul{
+   padding:0px;
+   margin-left: -20px;
+}
+
+.modelnav ul li a:hover{
+    color: red;
+}
+.fixed{
+   position: fixed;
+   top: 0;
+   left:0;
+   width: 100%;
+ }
+
+ .fixed .nav-inner{
+     max-width:1000px;
+     margin: 0 auto;
+
+ }
+main{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.leftpanel{
+  float: left;
+  width: 480px;
+  margin-top: 56px;
+}
+
+.price{
+   font-size: x-large;
+}
+
+.rightpanel{
+   float: left;
+   margin-top: 50px;
+   width: 28%;
+   margin-left: 0;
+}
+
+.clear{
+    clear: both;
+  }
+
+.holder{
+  height: 2px;
+  width: 100px;
+  background: #ef5a28;
+  display: block;
+  margin-top: -15px;
+  position: absolute;
+}
+
+ .pHighlights,
+.tabDetails {
+    margin: 30px 0 0 0;
+    color: #1f1f1f;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial,Helvetica,sans-serif;
+	text-align:justify;
+  }
+
+  .maincontent img{
+    height: 420px;
+    width: 650px;
+    display: inline;
+  }
+  p.keep{
+	  font-family:arial;
+	  color:gray;
+  }
+div.models{
+background-color: lavender;
+width:1000px;
+height:1650px;
+position:relative;
+left:0px;
+}
+.underline{
+  height: 3px;
+  width: 200px;
+  background: #ef5a28;
+  display: block;
+  margin-top: -15px;
+  position: absolute;
+}
+div.vid1{
+position:absolute;
+top:50px;
+left:20px;
+height:355px;
+width:950px;
+background-color: white;
+}
+div.vid2{
+position:absolute;
+top:435px;
+left:20px;
+height:355px;
+width:950px;
+background-color: white;
+}
+div.vid3{
+position:absolute;
+top:820px;
+left:20px;
+height:355px;
+width:950px;
+background-color: white;
+}
+
+div.vid4{
+position:absolute;
+top:1205px;
+left:20px;
+height:355px;
+width:950px;
+background-color: white;
+}
+iframe.video1,.video2,.video3,.video4{
+	position:absolute;
+}
+div.videoinfo1,.videoinfo2,.videoinfo3,.videoinfo4{
+	position:absolute;
+	right:10px;
+	left:520px;
+	height:100%;
+	text-align:justify;
+}
+
+
+button.aboutusbutton{
+background-color:darkviolet;
+color:white;
+width:70px;
+}
+
+div.car1{
+position:relative;
+height:220px;
+width:530px;
+background-color: white;
+border:1px solid black;
+margin:10px 40px 25px ;
+}
+.car2{
+position:relative;
+height:220px;
+width:530px;
+background-color: white;
+border:1px solid black;
+margin:10px 40px 25px ;
+}
+
+
+.car3{
+position:relative;
+height:220px;
+width:530px;
+background-color: white;
+border:1px solid black;
+margin:10px 40px 25px ;
+}
+.car4{
+position:relative;
+height:220px;
+width:530px;
+background-color: white;
+border:1px solid black;
+margin:10px 40px 25px ;
+}
+.car5{
+position:relative;
+height:220px;
+width:530px;
+background-color: white;
+border:1px solid black;
+margin:10px 40px 25px ;
+}
+a.image1{
+position:relative;
+left:10px;
+top:10px;
+}
+
+h3.head3{
+padding:10px 40px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+h2.rs{
+position:absolute;
+top:5px;
+color:MidnightBlue ;
+}
+div.button{
+position:absolute;
+top:0px;
+bottom:0px;
+left:260px;
+right:60px;
+padding: 20px 15px;
+background-color:MediumTurquoise ;
+
+}
+button.button2{
+position:absolute;
+top:60px;
+height:40px;
+font-size:16px;
+background-color:IndianRed;
+color:white;
+border-radius:10px;
+}
+button.button3{
+position:absolute;
+top:105px;
+height:40px;
+font-size:16px;
+background-color:IndianRed;
+color:white;
+border-radius:10px;
+}
+button.button4{
+position:absolute;
+top:150px;
+height:40px;
+font-size:16px;
+background-color:OrangeRed;
+color:white;
+border-radius:10px;
+}
+
+div.news{
+position:absolute;
+top:50px;
+left:65%;
+height:500px;
+width:300px;
+text-align:center;
+border:2px solid black;
+background-color:white;
+}
+
+/*pictures*/
+
+.mySlides {
+	display:none;
+}
+.mySli {
+	display:none;
+}
+.slideshow-container{
+	position:relative;
+	max-width: 900px;
+	margin: 20px auto;
+
+}
+/*interior image*/
+.interior{
+
+	height:450px;
+	width:100%;
+}
+/*down box image*/
+.imgb{
+	position:relative;
+	max-width: 900px;
+	margin:  16px auto;	
+}
+.imgbox{
+	width:297px;
+	height:150px;
+		/*top right down left */
+	margin:0px 0px 20px 0px;
+	border-radius:8px;
+	 cursor: pointer;
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+/*image transis*/
+.imgbox:hover{
+			/*right down blurness allside */
+	box-shadow: 0px 17px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Next & previous buttons */
+
+a.prev,a.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  transition: 0.10s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: black;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  text-align: center;
+  color:black;
+  font-weight:bold;
+}
+/* Number text (1/3 etc) */
+div.numbertext {
+  color: red;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,.dot:hover {
+  background-color: #293f50;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*specification*/
+
+div.modeltable{
+
+width:1000px;
+height:3100px;
+position:relative;
+left:0px;
+background-color:MediumAquaMarine ;
+}
+div.spec1{
+position:relative;
+height:475px;
+width:1000px;
+background-color:GoldenRod;
+}
+.merc{
+	position:absolute;
+	top:10px;
+	left:550px;
+	width:400px;
+	height:200px;
+}
+.specimg1{
+	position :relative;
+	/*top right down left */
+	top:10px;
+	left:70px;
+	height:570px;
+	width:750px;
+}
+/*dist betwn car n key */
+.spec2{
+	position:relative;
+	margin:120px 25px 0px 25px;
+	width:950px;
+}
+table{
+	text-align: left; 
+	width: 900px; 
+	height: 308px;
+}
+th{
+	padding:15px;
+	border-bottom:1px solid grey;
+}
+td{
+	padding:15px;
+	border-bottom:1px solid grey;
+	background-color:lightgray;
+}
+
+.tick{
+	width:20px;
+	height:20px;
+}
+
+/*Price*/
+
+.price1{
+	border-collapse:collapse;
+	font-size:22px;
+	border:1px solid black;
+	/*top right down left */
+	width:100%;
+	height:100%;
+}
+div.p{
+position:absolute;
+top:50px;
+left:20px;
+height:355px;
+width:950px;
+background-color: white;
+}
+div.p2{
+position:absolute;
+top:455px;
+left:20px;
+height:330px;
+width:950px;
+background-color: white;
+}
+.price2{
+border:1px solid black;
+width:100%;
+}
+div.p3{
+position:absolute;
+top:840px;
+left:20px;
+height:328px;
+width:950px;
+background-color: white;
+}
+.price3{
+
+border:1px solid black;
+width:100%;
+
+}
+div.p4{
+position:absolute;
+top:1205px;
+left:20px;
+height:355px;
+width:950px;
+background-color: white;
+}
+.price4{
+position:absolute;
+height:400px;
+width:900px;
+float:left;
+top:-40px;
+}
+button.butdown{
+position:absolute;
+top:60px;
+height:40px;
+font-size:16px;
+background-color:Red;
+color:white;
+border-radius:10px;
+}

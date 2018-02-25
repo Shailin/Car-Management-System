@@ -1,0 +1,58 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+<title>create your account</title>
+  </head>
+<body>
+<header id="header">
+<h1>Sign in and Sign up Form
+</h1></header>
+  <section id="maincontent">
+  <div id="container">
+   <div id="tabbox">
+    <a href="#" id="signin" class="tab select">signin</a>
+    <a href="#" id="signup" class="tab signup">signup</a>
+    </div>
+    <div id="formpanel">
+    <div id="signinbox">
+   <form action="login.php" method="post">
+      <label for="email">Email-id:</label><input type="text" name="uemail" id="email" class="txtfield" tabindex="1" autocomplete="on" required>
+       <label for="password"> Password:</label><input type="password" name="password" id="password" class="txtfield" tabindex="2" autocomplete="off" required>
+    
+        <input type="submit" name="loginbtn" id="submitlogin" value="LOGIN" class="btn" tabindex="3" />
+		
+      
+    </form>
+    </div>
+    <div id="signupbox">
+    <form action="signup1.php" method="post">
+       <label for="First Name">First Name:</label><input type="text" name="firstname" id="First Name" class="txtfield" tabindex="4" autocomplete="off" required>
+       <label for="Last Name"> Last Name:</label><input type="text" name="lastname" id="Last Name" class="txtfield" tabindex="5" autocomplete="off" required>
+       <label for="Email-id"> Email-id:</label><input type="email" name="uemail" id="Email-id" class="txtfield" tabindex="6" autocomplete="off" required>
+        <label for="Password">Password:</label><input type="password" name="password" id="Password" class="txtfield" tabindex="7" autocomplete="off" required>
+       
+        <label for="Mobile no">Mobile no.:</label><input type="text" name="mobileno" id="mobileno" pattern="[0-9]{10}" class="txtfield" tabindex="9" autocomplete="off" required>
+        <label for="Address">Address:</label><input type="text" name="uaddress" id="Address" class="txtfield" tabindex="10" autocomplete="off" required>
+   <label for="Gender">Gender:</label><!--input type="text" name="ugender" id="Gender" class="txtfield" tabindex="11" autocomplete="off" required-->
+   <select name="ugender" id="ugender" class="txtfield" tabindex="11" >
+    <option value="male">male</option>
+    <option value="female">female</option>
+    
+  </select>
+      <label for="City">City:</label><input type="text" name="city" id="City" class="txtfield" tabindex="12" autocomplete="off" required>
+      <label for="State">State:<br><input type="text" name="state" id="State" class="txtfield" tabindex="13" autocomplete="off" required>
+      <label for="Pincode"> Pincode:</label><input type="text" name="pincode" id="Pincode" pattern="[0-9]{6}" class="txtfield" tabindex="14" autocomplete="off" required>
+      
+        <input type="submit" name="signupbtn" id="submitsignup" value="SIGNUP" class="btn" tabindex="15"  />
+      
+    </form>
+    </div>
+    </div>
+ </div>
+  </body>
+   <footer id="footer">
+<p>car Website www.vsr.com
+</p></footer>
+</html>

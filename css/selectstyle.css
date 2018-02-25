@@ -1,0 +1,84 @@
+
+.main_content{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    border:2px solid orange;
+}
+
+.carTable
+{
+    width: 750px;
+    height: 250px;
+    margin: 10px;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+
+    background: #466368;
+    background: -webkit-linear-gradient(#648880, #293f50);
+    background:    -moz-linear-gradient(#648880, #293f50);
+    background:         linear-gradient(#648880, #293f50);
+
+    color: white;
+    moz-border-radius: 10px;
+}
+.carTable1
+{
+    width: 95%;
+    height: 250px;
+    margin: 10px;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+
+    background: #466368;
+    background: -webkit-linear-gradient(#7ace88, #2da22a);
+    background:    -moz-linear-gradient(#7ace88, #2da22a);
+    background:         linear-gradient(#7ace88, #2da22a);
+
+    color: white;
+    moz-border-radius: 10px;
+}
+
+.carTable2{
+
+    background: red;
+    background: -webkit-linear-gradient(#d29fa4, red);
+    background:    -moz-linear-gradient(#d29fa4, red);
+    background:         linear-gradient(#d29fa4, red);
+}
+
+.carTable2 a{
+   display: block;
+   width: 100px;
+   background-color: yellow;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   border-radius: 12px;
+   font-size: larger;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+ .carname{
+    font-size: 22px;
+ }
+
+ .carname hr{
+   color: orange;
+ }
+.carTable tr th, .carTable tr td,.carTable1 tr th, .carTable1 tr td
+{
+    width: 20%;
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+
+.carTable td:last_child ,.carTable1 td:last_child  {
+   width: 35%;
+}
+.carTable img,.carTable1 img
+{
+    width: 250px;
+    padding: 0px 10px 10px 10px;
+}

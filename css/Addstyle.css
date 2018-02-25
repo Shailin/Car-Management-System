@@ -1,0 +1,61 @@
+.center{
+   width:1000px;
+   margin: 0 auto;
+   background-color: #eaeaea;
+
+}
+
+.inputField
+{
+    width: 280px;
+    padding: 4px;
+}
+
+label
+{
+    float: left;
+    width: 100px;
+    font-weight: bold;
+}
+
+.overViewTable
+{
+    width: 700px;
+}
+
+.overViewTable tr
+{
+    padding: 4px;
+}
+
+.overViewTable td
+{
+    padding: 4px;
+    border: 1px solid #E3E3E3;
+}
+
+
+#dialogoverlay{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #5d5b5b;
+    width: 100%;
+    z-index: 10;
+}
+
+#dialogbox{
+    display: none;
+    position: fixed;
+    background: #FFF;
+    border-radius:7px;
+    width:550px;
+    z-index: 10;
+}
+
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }

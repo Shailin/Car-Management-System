@@ -1,0 +1,65 @@
+
+ .top-logo{
+    font-family: cursive;
+    text-decoration:none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size:37px;
+    letter-spacing:3px;
+    color:#555555;
+    display:block;
+    position:absolute;
+    top:17px;
+    padding-left:2px;
+ }
+
+ .header{
+    position: relative;
+    background-color: #ffffff;
+    height: 68px;
+    padding-top: 20px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 1;
+ }
+
+
+ .float-right{
+    float: right!important;
+ }
+
+  .wide-text{
+    letter-spacing: 4px;
+    font-family:"Segoe UI,Arial,sans-serif" ;
+  }
+
+
+ .topnav {
+    position:relative;
+    z-index:2;
+    font-size: 17px;
+    background-color:#25ad94;
+    color:#f1f1f1;
+    width:100%;
+    padding:0;
+   letter-spacing:1px;
+ }
+
+
+  .modelnavspace{
+    width: 1000px;
+    margin: 8px auto;
+  }
+
+
+.topnav a{
+   padding:10px 15px 9px 15px !important;
+   display:inline-block;
+   color: inherit;
+   text-decoration: none;
+}
+.topnav a:hover{
+   background-color:#1a695a;
+   color:#ffffff;
+}
